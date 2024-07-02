@@ -1,0 +1,41 @@
+/* src/Home.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: #ffffff; /* Optional: Add a background color */
+    padding: 2rem;
+  }
+  
+  .title {
+    font-family: 'Shrinath', cursive;
+    font-size: 3rem;
+    color: purple;
+    margin-bottom: 1rem;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    color: brown;
+    font-family: 'Shrinath', cursive;
+    margin-bottom: 1rem;
+  }
+  
+  .quotes {
+    font-size: 1.5rem;
+    color: #d45ea5;
+    margin: 1rem 2rem;
+    font-weight: bold;
+  }
+  
+  .image {
+    width: 1200px;
+    border-color: #ffffff;
+    border-radius: 15px;
+    height: auto;
+    margin-top: 2rem;
+  }
+  

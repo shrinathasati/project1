@@ -1,0 +1,45 @@
+/* src/NavBar.css */
+
+.navbar {
+    width: 100%;
+    background-color: rgb(116, 4, 116);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 0 1rem;
+  }
+  
+  .navbar-link {
+    color: white;
+    font-family: 'Shrinath', cursive;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-logo {
+    font-family: 'Shrinath', cursive;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+  }
+  
